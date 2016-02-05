@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Form</title>
+  <meta charset="UTF-8" />
+</head>
+<body>
+  <form action="" method="post">
+    <fieldset>
+      <dl>
+        <dt>
+          <label for="first_name">First Name</label>
+        </dt>
+        <dd>
+          <input type="text" name="first_name" id="first_name" >
+        </dd>
+        <dt>
+          <label for="last_name">Last Name</label>
+        </dt>
+        <dd>
+          <input type="text" name="first_name" id="last_name" >
+        </dd>
+        <dt>
+          <label for="email">Email Address</label>
+        </dt>
+        <dd>
+          <input inputmode="email" type="email" name="email" id="email" placeholder="johndoe@example.com" >
+        </dd>
+        <dt>
+          <label for="city">City</label>
+        </dt>
+        <dd>
+          <input type="text" name="city" id="city" >
+        </dd>
+        <dt>
+          <label for="state">State</label>
+        </dt>
+        <dd>
+          <select name="state" id="state">
+            <option>AK</option>
+            <option>AL</option>
+            <option>AR</option>
+            <option>AZ</option>
+            <option>CA</option>
+            <option>CO</option>
+            <option>CT</option>
+            <option>DC</option>
+            <option>DE</option>
+            <option>FL</option>
+            <option>GA</option>
+            <option>HI</option>
+            <option>IA</option>
+            <option>ID</option>
+            <option>IL</option>
+            <option>IN</option>
+            <option>KS</option>
+            <option>KY</option>
+            <option>LA</option>
+            <option>MA</option>
+            <option>MD</option>
+            <option>ME</option>
+            <option>MI</option>
+            <option>MN</option>
+            <option>MO</option>
+            <option>MS</option>
+            <option>MT</option>
+            <option>NC</option>
+            <option>ND</option>
+            <option>NE</option>
+            <option>NH</option>
+            <option>NJ</option>
+            <option>NM</option>
+            <option>NV</option>
+            <option>NY</option>
+            <option>OH</option>
+            <option>OK</option>
+            <option>OR</option>
+            <option>PA</option>
+            <option>RI</option>
+            <option>SC</option>
+            <option>SD</option>
+            <option>TN</option>
+            <option>TX</option>
+            <option>UT</option>
+            <option>VA</option>
+            <option>VT</option>
+            <option>WA</option>
+            <option>WI</option>
+            <option>WV</option>
+            <option>WY</option>
+          </select>
+        </dd>
+        <dt>
+          <label for="zipcode">Zip Code</label>
+        </dt>
+        <dd>
+          <input inputmode="numeric" type="number" name="zip_code" id="zipcode" min="10000" max="99999" >
+        </dd>
+      </dl>
+      <h4>Which of these colors do you most prefer?</h4>
+      <ul>
+        <li>
+          <label>
+            <input checked type="radio" name="color" value="Red">
+            Red
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="color" value="Blue">
+            Blue
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="color" value="Orange">
+            Orange
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="color" value="Green">
+            Green
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="color" value="Yellow">
+            Yellow
+          </label>
+        </li>
+      </ul>
+      <h4>Which of these colors do you most prefer?</h4>
+      <ul>
+        <li>
+          <label>
+            <input checked type="checkbox" name="html" value="HTML">
+            HTML
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="css" value="CSS">
+            CSS
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="javascript" value="Javascript">
+            Javascript
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="ruby" value="Ruby">
+            Ruby
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="rails" value="Rails">
+            Rails
+          </label>
+        </li>
+      </ul>
+      <label>Comments</label>
+      <textarea cols="60" rows="6" name="comments">Leave comments here...</textarea>
+      <input type="hidden" name="date" value="2016-02-04">
+      <input type="submit" >
+      <input type="reset" >
+    </fieldset>
+  </form>
+</body>
+</html>
